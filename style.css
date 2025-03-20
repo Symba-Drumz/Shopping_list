@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li.purchased {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+  }
+  .edit-input {
+    font-size: 1rem;
+    padding: 5px;
+    margin-right: 5px;
+  }
